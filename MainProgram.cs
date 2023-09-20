@@ -2,11 +2,11 @@ class MainProgram {
 
 public static void Main(string[] args) {
 // Run Diff Programs
-//Program prog = new Program();
-//prog.runProgram();
+// Program prog = new Program();
+// prog.runProgram();
 
-// Program2 prog2 = new Program2();
-// prog2.runProgram();
+Program2 prog2 = new Program2();
+prog2.runProgram();
 // Console.WriteLine("Prog2 String is: "+prog2.testy);
 
 
@@ -23,7 +23,8 @@ public static void Main(string[] args) {
 // 1 <= N <= 10
 // 1 <= a_n <= 100
 
-int num = Convert.ToInt32(args[0]);
+/* Working with Args 
+// int num = Convert.ToInt32(args[0]);
     // * What do we do with this? who cares? it isn't in output...
 
 
@@ -41,6 +42,7 @@ Console.WriteLine(getLowestNum(nums));
         }
         return smallest;
 }
+*/
 
  Console.ReadKey();
 }}

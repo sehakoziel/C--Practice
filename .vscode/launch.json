@@ -15,8 +15,8 @@
             "args": ["3", "5 1 4"],
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
-            //"console": "externalTerminal",
-            "console": "integratedTerminal",
+            "console": "externalTerminal",
+            //"console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
